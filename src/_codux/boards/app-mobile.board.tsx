@@ -6,7 +6,9 @@ export default createBoard({
     name: 'App (mobile)',
     Board: () => <App product={RUBBER_DUCKY} user={SCROOGE} />,
     environmentProps: {
-        windowWidth: 400,
+        windowWidth: 990,
+        windowHeight: 557,
+        canvasHeight: 742,
     },
     isSnippet: true,
 });
